@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Css
+Html
+Js
+Python
+BandoDeDados
