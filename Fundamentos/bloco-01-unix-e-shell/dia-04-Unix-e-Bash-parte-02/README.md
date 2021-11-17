@@ -4,9 +4,9 @@
 
 ### Parte I - Comandos de Input e Output
 
-1 - Navegue até a pasta unix_tests ;
-2 - Crie um arquivo texto pelo terminal com o nome skills2.txt e adicione os valores Internet , 3 - Unix e Bash , um em cada linha.
-4 - Adicione mais 5 itens à sua lista de skills e depois imprima a lista ordenada no terminal. 🤓
+1. Navegue até a pasta unix_tests ;
+2. Crie um arquivo texto pelo terminal com o nome skills2.txt e adicione os valores Internet , 3 - Unix e Bash , um em cada linha.
+3. Adicione mais 5 itens à sua lista de skills e depois imprima a lista ordenada no terminal. 🤓
 5 - Conte quantas linhas tem o arquivo skills2.txt .
 6 - Crie um arquivo chamado top_skills.txt usando o skills2.txt , contendo as 3 primeiras skills em ordem alfabética.
 7 - Crie um novo arquivo chamado phrases2.txt pelo terminal e adicione algumas frases de sua escolha.
