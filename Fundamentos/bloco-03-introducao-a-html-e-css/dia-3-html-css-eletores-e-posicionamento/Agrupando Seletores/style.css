@@ -1,0 +1,15 @@
+.centralize {
+    text-align: center;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+
+li:active {
+    font-family: fantasy;
+}
+
+.list {
+    list-style: none;
+}
