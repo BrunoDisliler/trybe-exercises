@@ -52,7 +52,7 @@ body {
     text-align: center;
     padding: 10px;
     position: absolute;
-    top: 555px;
+    top: 251px;
     right: 2%;
     left: 71%;
 }
@@ -61,6 +61,9 @@ body {
     background-color: aqua;
     text-align: center;
     padding: 10px;
+    margin-left: 72%;
+    float: right;
+    bottom: 90%;
 }
 .foto {
     float: left;
