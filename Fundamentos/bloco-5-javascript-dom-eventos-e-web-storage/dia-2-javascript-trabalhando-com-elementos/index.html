@@ -87,7 +87,14 @@
      image.className = 'small-image';
      section2.appendChild(image);
      // 8 atividade
-     
+     let list = document.createElement('ul');
+     let arrayList = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+     section3.appendChild(list);
+     for (i=0; i < arrayList.length; i += 1) {
+       newList = document.createElement('li');
+       newList.innerHTML = arrayList[i];
+       list.appendChild(newList);
+     }
       
     </script>
   </body>
