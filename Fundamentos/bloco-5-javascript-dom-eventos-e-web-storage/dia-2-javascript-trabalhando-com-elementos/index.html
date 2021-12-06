@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 1 Atividade
+      let titulo = document.createElement('h1');
+      titulo.innerText = 'Exercício 5.2 - JavaScript DOM';
+      document.body.appendChild(titulo);
+      // 2 Atividade
+      let main = document.createElement('main');
+      document.body.appendChild(main);
+      main.className = 'main-content';
+      // 3 Atividade
+      let section = document.createElement('section');
+      section.className = 'center-content';
+      main.appendChild(section);
+      // 4 Atividade
+     let paragraph = document.createElement('p');
+     paragraph.innerText = 'O DOM é difícil de aprender!';
+     section.appendChild(paragraph);
+     // 5 Atividade
+     let section2 = document.createElement('section');
+     section2.className = 'left-content';
+     main.appendChild(section2);
+     // 6 Atividade
+     let section3 = document.createElement('section');
+     section3.className = 'right-content';
+     main.appendChild(section3);
+     // 7 atividade
+     let image = document.createElement('img');
+     image.src="https://picsum.photos/200";
+     image.className = 'small-image';
+     section2.appendChild(image);
+     // 8 atividade
+     let list = document.createElement('ul');
+     let arrayList = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+     section3.appendChild(list);
+     for (i=0; i < arrayList.length; i += 1) {
+       newList = document.createElement('li');
+       newList.innerHTML = arrayList[i];
+       list.appendChild(newList);
+     };
+     // 9 Atividade
+     for (let index = 1; index <= 3; index += 1) {
+        const elementH3 = document.createElement('h3');
+        elementH3.innerHTML = 'Show ' + index;
+        main.appendChild(elementH3);
+      };
+      
+    </script>
+  </body>
+</html>
