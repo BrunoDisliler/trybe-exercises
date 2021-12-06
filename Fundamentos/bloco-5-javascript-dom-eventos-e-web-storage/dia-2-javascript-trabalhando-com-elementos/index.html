@@ -58,16 +58,15 @@
   <body>
     <script>
       // 1 Atividade
-      let elementoPai = document.body;
       let titulo = document.createElement('h1');
-      elementoPai.appendChild(titulo);
-      let texto  = document.createTextNode("Exercício 5.2 - JavaScript DOM");
-      titulo.appendChild(texto);
+      titulo.innerText = 'Exercício 5.2 - JavaScript DOM';
+      document.body.appendChild(titulo);
       // 2 Atividade
       let main = document.createElement('main');
-      elementoPai.appendChild(main);
-      main.classList.add('main-content');
-      
+      document.body.appendChild(main);
+      main.className = 'main-content';
+      // 3 Atividade
+      let s
       
     </script>
   </body>
