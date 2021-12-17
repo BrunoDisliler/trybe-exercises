@@ -1,4 +1,3 @@
-
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Bruno Disliler](https://www.linkedin.com/in/brunodisliler/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
