@@ -51,10 +51,28 @@ const firstH3 = document.createElement('h3');
 tagMain.appendChild(firstH3);
 const secondH3 = document.createElement('h3');
 tagMain.appendChild(secondH3);
-const ThirdH3 = document.createElement('h3');
-tagMain.appendChild(ThirdH3);
+const thirdH3 = document.createElement('h3');
+tagMain.appendChild(thirdH3);
 
 // ALTERAÇÕES E REMOÇÕES
 
 // Adicione a classe title na tag h1 criada;
 h1.innerText = 'Isso é demais!';
+
+// Adicione a classe description nas 3 tags h3 criadas;
+firstH3.className = 'description';
+secondH3.className = 'description';
+thirdH3.className = 'description';
+
+// Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
+tagMain.removeChild(tagSection2);
+
+// Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section ;
+tagSection3.style.marginRight = 'auto';
+
+// Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
+tagMain.style.backgroundColor = 'green';
+
+// Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+ul.lastChild.remove();
+ul.lastChild.remove();
