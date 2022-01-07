@@ -1,13 +1,14 @@
-    // Remova todos os elementos filhos de paiDoPai exceto pai,
-    // elementoOndeVoceEsta e primeiroFilhoDoFilho.
-    const pai = document.getElementById('pai');
+// Remova todos os elementos filhos de paiDoPai exceto pai,
 
-    for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
-      const currentChildren = pai.childNodes[index];
-      if (currentChildren.id !== 'elementoOndeVoceEsta') {
-        currentChildren.remove();
-      }
-    }
+const pai = document.getElementById('pai');
 
-    const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
-    segundoEUltimoFilhoDoFilho.remove();
+for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
+  const currentChildren = pai.childNodes[index];
+  if (currentChildren.id !== 'elementoOndeVoceEsta') {
+    currentChildren.remove();
+  }
+}
+
+// elementoOndeVoceEsta e primeiroFilhoDoFilho.
+const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+segundoEUltimoFilhoDoFilho.remove();
