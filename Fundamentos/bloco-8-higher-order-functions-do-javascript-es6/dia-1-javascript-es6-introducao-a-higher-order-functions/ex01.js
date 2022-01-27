@@ -1,12 +1,19 @@
-// 1 - Crie uma função que retorne a string 'Acordando!!' ;
-const wakeUp = () => 'Acordando!!';
-// 2 - Crie outra função que retorne a string 'Bora tomar café!!' ;
-const coffee = () => 'Bora tomar café!!';
-// 3 - Crie mais uma função que retorne a string 'Partiu dormir!!' ;
-const sleep = () => 'Partiu dormir!!';
-// 4 - Agora desenvolva uma HOF chamada doingThings e configure esta função para que imprima no console o resultado da execução das funções que você criou.
-const doingThings = (func) => console.log(func());
+/*
+1 - Crie uma função que retorne um objeto no formato { nomeCompleto, email } representando uma nova pessoa contratada. Passe sua função como parâmetro da HOF newEmployees para criar cada pessoa contratada em seu respectivo id . A sua função deve receber como parâmetro o nome completo da pessoa funcionária e a partir dele gerar automaticamente um email no formato nome_da_pessoa@trybe.com .
+*/
+const newEmployees = (func) => {
+  const employees = {
+    id1: func('Pedro Guerra'), // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
+    id2: func('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
+    id3: func('Carla Paiva'), // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro, substituindo as aspas
+  }
+  return employees;
+};
 
-doingThings(wakeUp);
-doingThings(coffee);
-doingThings(sleep);
+const func = (fullName) => {
+  const eMailEmployee = fullName.toLowerCase().split(' ').join('_');
+  const eMail = `${eMailEmployee}@trybe.com`;
+  return eMail;
+}
+
+console.log(newEmployees(func));
