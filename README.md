@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_
 - :white_check_mark: 3-3: _HTML & CSS - Seletores e posicionamento_
 - :white_check_mark: 3-4: _HTML Semântico_
-- :white_check_mark: 3-5: _[Projeto - HTML & CSS]()_
+- :white_check_mark: 3-5: _[Projeto - Lessons Learned]()_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 5-2: _JavaScript - Trabalhando com elementos_
 - :white_check_mark: 5-3: _JavaScript - Eventos_
 - :white_check_mark: 5-4: _JavaScript - Web Storage_
-- :white_check_mark: 5-5: _[Projeto - Meme Generator]()_
+- [] 5-5: _[Projeto - Meme Generator]()_
 - :white_check_mark: 5-6: _[Projeto - Arte com Pixels]()_
 - :white_check_mark: 5-7: _[Projeto - Lista de tarefas]()_
-- :white_check_mark: 5-7: _[Projeto - Adivinhe a Cor]()_
-- :white_check_mark: 5-7: _[Projeto - Carta Misteriosa]()_
+- [] 5-7: _[Projeto - Adivinhe a Cor]()_
+- [] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -54,7 +54,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 6-3: _CSS Flexbox - Part 1_
 - :white_check_mark: 6-4: _CSS Flexbox - Part 2_
 - :white_check_mark: 6-5: _CSS Responsivo - Mobile First_
-- :white_check_mark: 6-6: _[Projeto - Página inicial do Facebook]()_
+- :white_check_mark: 6-6: _[Projeto - TrybeWarts]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
