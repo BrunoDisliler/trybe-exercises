@@ -197,7 +197,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 28-2: _Arquitetura web - Rest e Restful_
 - [ ] 28-3: _[Projeto - Store Manager]()_
 
-##### Bloco 29: NodeJS
+##### Bloco 29: NodeJS Aqui o bicho pega
 
 - [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
 - [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
