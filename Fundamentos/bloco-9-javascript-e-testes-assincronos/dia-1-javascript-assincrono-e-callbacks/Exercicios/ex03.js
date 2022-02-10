@@ -5,10 +5,11 @@ const getPlanet = () => {
     name: "Mars",
     distanceFromSun: {
       value: 227900000,
-      measurementUnit: "kilometers"
+      measurementUnit: "kilometers",
     },
   };
+  // Função settimeout() imprime depois de 4000 milisegundos (4 segundos), definidos ao final da função.
   setTimeout(() => console.log("Returned planet: ", mars), 4000);
 };
 
-getPlanet(); // imprime Marte depois de 4 segundos
+getPlanet(); 
