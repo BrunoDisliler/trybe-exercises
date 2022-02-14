@@ -78,6 +78,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 9-3: _Jest - Testes Assíncronos_
 - :white_check_mark: 9-4: _[Projeto - Carrinho de Compras]()_
 
+:white_check_mark: Dia todo relacionado a soft skills.
 
 ## DESENVOLVIMENTO FRONT-END :hourglass_flowing_sand:
 
