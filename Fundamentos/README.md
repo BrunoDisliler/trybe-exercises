@@ -1,5 +1,4 @@
-# FUNDAMENTOS DO DESENVOLVIMENTO WEB
-
+# FUNDAMENTOS DO DESENVOLVIMENTO WEB - **MÓDULO CONCLUÍDO** 
 
 Esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de `Fundamentos` do curso da [Trybe](https://www.betrybe.com/).
 
