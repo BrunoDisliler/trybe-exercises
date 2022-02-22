@@ -2,30 +2,26 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 
-function button1() {
-  console.log('Ciclou no botão 1');
-}
 
-function button2() {
-  console.log('Ciclou no botão 2');
-}
-
-function button3() {
-  console.log('Ciclou no botão 3');
-}
 class App extends React.Component {
+  constructor(props) {
+  // // A função `super()` é chamada para garantir que a lógica interna do React rode **antes** da sua. Se não for assim, o código não funcionará
+    super()
+    // // Sua lógica extra vai aqui! O parâmetro `props` é opcional, para você acessar as props diretamente no construtor
+    this.button = this.button.bind(this);
+  }
+
+  button() {
+    console.log('Ciclou no botão!');
+  }
+
   render() {
     return (
       <div>
-        <button onClick={ button1 }>Botão 1</button>
-        <button onClick={ button2 }>Botão 2</button>
-        <button onClick={ button3 }>Botão 3</button>
+        <button onClick={ this.button }>Botão</button>
       </div>
     );
   }
 }
 
 export default App;
-
-
-// 2 - Faça com que sua aplicação exiba três botões lado a lado com textos diferentes. Cada botão clicado deve acionar um evento diferente, cada um escrevendo algo diferente no console do navegador via console.log() .
