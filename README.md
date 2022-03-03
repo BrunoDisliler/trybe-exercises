@@ -82,17 +82,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## DESENVOLVIMENTO FRONT-END :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 10: Introdução - React
 
 - :white_check_mark: 11-1: _'Hello, world!' no React!_
 - :white_check_mark: 11-2: _Componentes React_
-- :white_check_mark: 11-3: _[Projeto - Movie Cards Library]()_
+- :white_check_mark: 11-3: _[Solar System]()_
 
-##### Bloco 12: React
+##### Bloco 11: React
 
-- :white_check_mark: 12-1: _Components com estado_
-- :white_check_mark: 12-2: _Eventos e formulários no React_
-- :white_check_mark: 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- :white_check_mark: 12-1: _Components com estado e eventos_
+- :white_check_mark: 12-2: _Formulários no React_
+- :white_check_mark: 12-3: _[Tryunfo]()_
 
 ##### Bloco 13: React
 
