@@ -1,20 +1,26 @@
-/*
-1 - Crie uma aplicação React com npx create-react-app fancy-buttons. 
-Altere o componente App.js para que seja um componente de classe e 
-contenha um botão associado a um evento que imprime um texto qualquer via console.log(). 
-Não precisa se preocupar com a sintaxe correta para funções de eventos por enquanto!!
-*/
-
 import './App.css';
 import React from 'react';
 
-function clickEvent() {
-  return console.log('Clicou');
+function button1() {
+  return console.log('Clicou no botão 1');
 }
 
+function button2() {
+  return console.log('Clicou no botão 2');
+}
+
+function button3() {
+  return console.log('Clicou no botão 3');
+}
 class App extends React.Component {
   render() {
-    return (<button onClick={clickEvent}>Botão</button>);
+    return (
+      <div className='divButtons'>
+        <button onClick={button1}>Botão 1</button>
+        <button onClick={button2}>Botão 2</button>
+        <button onClick={button3}>Botão 3</button>
+      </div>
+    );
   }
 }
 
