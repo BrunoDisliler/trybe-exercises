@@ -17,26 +17,29 @@ class App extends React.Component {
   }
 
   button1() {
-    console.log(this);
-    return console.log('Clicou no botão 1');
-  }
+    this.setState((prevState) => ({
+      clicksutton1: prevState.clicksutton1 + 1,
+    }))
+  };
   
   button2() {
-    console.log(this);
-    return console.log('Clicou no botão 2');
-  }
+    this.setState((prevState) => ({
+      clickButton2: prevState.clickButton2 + 1,
+    }))
+  };
   
   button3() {
-    console.log(this);
-    return console.log('Clicou no botão 3');
-  }
+    this.setState((prevState) => ({
+      clicksButton3: prevState.clicksButton3 + 1,
+    }))
+  };
 
   render() {
     return (
       <div className='divButtons'>
-        <button onClick={this.button1}>Botão 1</button>
-        <button onClick={this.button2}>Botão 2</button>
-        <button onClick={this.button3}>Botão 3</button>
+        <button onClick={this.button1}>Botão 1 | Count = {this.state.clicksutton1}</button>
+        <button onClick={this.button2}>Botão 2 | Count = {this.state.clickButton2}</button>
+        <button onClick={this.button3}>Botão 3 | Count = {this.state.clicksButton3}</button>
       </div>
     );
   }
