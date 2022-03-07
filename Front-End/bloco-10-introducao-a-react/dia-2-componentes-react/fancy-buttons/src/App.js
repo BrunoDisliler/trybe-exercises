@@ -2,24 +2,23 @@ import './App.css';
 import React from 'react';
 
 class App extends React.Component {
-  button1() {
-    return console.log('Clicou no botão 1');
+  constructor() {
+    super()
+
+    this.button = this.button.bind(this);
   }
-  
-  button2() {
-    return console.log('Clicou no botão 2');
-  }
-  
-  button3() {
-    return console.log('Clicou no botão 3');
+
+  button() {
+    console.log(this);
+    return console.log('Clicou no botão');
   }
 
   render() {
     return (
       <div className='divButtons'>
-        <button onClick={this.button1}>Botão 1</button>
-        <button onClick={this.button2}>Botão 2</button>
-        <button onClick={this.button3}>Botão 3</button>
+        <button onClick={this.button}>Botão 1</button>
+        <button onClick={this.button}>Botão 2</button>
+        <button onClick={this.button}>Botão 3</button>
       </div>
     );
   }
