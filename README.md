@@ -110,11 +110,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - :white_check_mark: 15-1: _Testando React com a React Testing Library_
 - :white_check_mark: 15-2: _Testando React com a React Testing Library - Parte 2_
-- white_check_mark: 15-3: _[Projeto - Testes em React]()_
+- :white_check_mark: 15-3: _[Projeto - Testes em React]()_
 
 ##### Bloco 16: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux_
+- :white_check_mark: 16-1: _Introdução ao Redux_
 - [ ] 16-2: _React com Redux - Parte 1_
 - [ ] 16-3: _React com Redux - PrÃ¡tica_
 - [ ] 16-4: _React com Redux - Parte 2_
