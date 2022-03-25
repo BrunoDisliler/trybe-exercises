@@ -65,6 +65,17 @@
       store.dispatch({ type: 'PREVIOUS_COLOR' });
       });
 
+      store.subscribe(() => {
+        const { colors, index } = store.getState();
+
+        const element = document.getElementById('value');
+        element.innerHTML = colors[index];
+        const container = document.getElementById('container');
+        container.style.backgroundColor = colors[index];
+      })
+
     </script>
   </body>
 </html>
+
+5 - Faça o subscribe da store, alterando o innerHTML da tag com id value para a cor atual e o style do elemento com id container . Você deverá ser capaz de ver as cores mudando ao fundo, e o nome da cor exibida.
