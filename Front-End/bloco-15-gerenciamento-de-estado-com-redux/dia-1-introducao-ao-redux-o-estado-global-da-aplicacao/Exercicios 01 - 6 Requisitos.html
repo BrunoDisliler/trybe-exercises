@@ -37,7 +37,7 @@
         colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
         index: 0,
       };
-
+      // REDUCER
       const reducer = (state = ESTADO_INICIAL, action) => {
         switch(action.type) {
           case 'NEXT_COLOR':
@@ -54,11 +54,17 @@
             return state;
         }
       };
-
+      // STORE
       const store = Redux.createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
+      // ACTION
+      document.getElementById('next').addEventListener('click', () => {
+      store.dispatch({ type: 'NEXT_COLOR' });
+      });
+      document.getElementById('previous').addEventListener('click', () => {
+      store.dispatch({ type: 'PREVIOUS_COLOR' });
+      });
+
     </script>
   </body>
 </html>
-
-
-3 - Incremente o switch criado no exercício anterior com as actions NEXT_COLOR e PREVIOUS_COLOR . Essas actions devem alterar o valor index guardado no ESTADO_INICIAL . Atente-se aos limites de tamanho do array, as posições devem iniciar em 0 e não podem exceder a numeração do último item do array.
