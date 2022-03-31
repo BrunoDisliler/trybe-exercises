@@ -10,3 +10,15 @@
   5 - Faça o subscribe da store, alterando o innerHTML da tag com id value para a cor atual e o style do elemento com id container . Você deverá ser capaz de ver as cores mudando ao fundo, e o nome da cor exibida.
   
   6 - Crie um botão com o texto Random color , um eventListener e uma action no reducer adicionando uma cor aleatória ao array colors guardado em nosso estado inicial. Faça também com que essa cor seja mostrada ao ser criada, alterando o estado index para a posição dela. Para facilitar, segue uma função que gera cores aleatórias:
+
+    function criarCor() {
+      const oneChar = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
+      let cor = '#';
+      const aleatorio = () => Math.floor(Math.random() * oneChar.length);
+      for (let i = 0; i < 6; i += 1) {
+          cor += oneChar[aleatorio()];
+      }
+      return cor;
+  }
+
+  As cores criadas randomicamente devem ser armazenadas no array. Dessa forma, com os botões de Next color e Previous color , poderemos trafegar entre as cores padrões e as randômicas. Utilize o spread operator para adicionar cada cor randômica.
