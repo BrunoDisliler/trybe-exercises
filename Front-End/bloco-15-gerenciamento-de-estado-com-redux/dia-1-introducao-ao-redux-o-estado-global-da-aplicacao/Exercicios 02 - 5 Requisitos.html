@@ -49,8 +49,12 @@
             return state;
         }
       };
-
+      // USANDO FUNÇÃO COMBINE REDUCERS PARA COMBINAR DOIS OU MAIS REDUCERS
       const rootReducer = Redux.combineReducers({ meuPrimeiroReducer, meuSegundoReducer });
+
+      // CRIANDO UMA STORE
+      const store = Redux.createStore(rootReducer);
+
 
     </script>
   </body>
