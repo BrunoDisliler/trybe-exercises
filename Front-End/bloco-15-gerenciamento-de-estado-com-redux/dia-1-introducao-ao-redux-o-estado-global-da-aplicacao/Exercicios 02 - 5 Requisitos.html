@@ -38,6 +38,12 @@
 
       const meuPrimeiroReducer = (state = ESTADO_INICIAL_1, action) => {
         switch (action.type) {
+          case 'CHANGE_NAME_1':
+            return {
+              ...state,
+              nome: state.nome,
+              sobrenome: state.sobrenome,
+            };
           default:
             return state;
         }
@@ -45,6 +51,12 @@
 
       const meuSegundoReducer = (state = ESTADO_INICIAL_2, action) => {
         switch (action.type) {
+          case 'CHANGE_NAME_2':
+            return {
+              ...state,
+              nome: state.nome,
+              sobrenome: state.sobrenome,
+            };
           default:
             return state;
         }
@@ -55,7 +67,13 @@
       // CRIANDO UMA STORE
       const store = Redux.createStore(rootReducer);
 
+      // CRIANDO ACTIONS
+      
 
     </script>
   </body>
 </html>
+
+document.getElementById('next').addEventListener('click', () => {
+  store.dispatch({ type: 'NEXT_COLOR' });
+  });
