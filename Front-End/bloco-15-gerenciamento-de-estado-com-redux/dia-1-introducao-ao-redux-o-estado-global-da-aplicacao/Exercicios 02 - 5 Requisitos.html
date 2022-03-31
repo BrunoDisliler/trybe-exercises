@@ -43,6 +43,8 @@
               ...state,
               nome: action.nome,
               sobrenome: action.sobrenome,
+              endereco: action.endereco,
+              cidade: action.cidade,
             };
           default:
             return state;
@@ -56,6 +58,8 @@
               ...state,
               nome: action.nome,
               sobrenome: action.sobrenome,
+              endereco: action.endereco,
+              cidade: action.cidade,
             };
           default:
             return state;
@@ -74,15 +78,31 @@
             type: 'CHANGE_NAME_1',
             nome: 'Bruno',
             sobrenome: 'Disliler',
+            endereco: 'Avenida Dr. João Rimsa, 913',
+            cidade: 'Imbituba',
           });
           store.dispatch({
             type: 'CHANGE_NAME_2',
             nome: 'Rafaela',
-            sobrenome: 'Campos'
+            sobrenome: 'Campos',
+            endereco: 'Avenida Dr. João Rimsa, 913',
+            cidade: 'Imbituba',
           })
-        }, 2000);
+        }, 3000);
       };
 
+      store.subscribe(() => {
+      const { meuPrimeiroReducer, meuSegundoReducer } = store.getState();
+      document.getElementById('nome-1').innerHTML = meuPrimeiroReducer.nome;
+      document.getElementById('sobrenome-1').innerHTML = meuPrimeiroReducer.sobrenome;
+      document.getElementById('endereco-1').innerHTML = meuPrimeiroReducer.endereco;
+      document.getElementById('cidade-1').innerHTML = meuPrimeiroReducer.cidade;
+
+      document.getElementById('nome-2').innerHTML = meuSegundoReducer.nome;
+      document.getElementById('sobrenome-2').innerHTML = meuSegundoReducer.sobrenome;
+      document.getElementById('endereco-2').innerHTML = meuPrimeiroReducer.endereco;
+      document.getElementById('cidade-2').innerHTML = meuPrimeiroReducer.cidade;
+    });
 
     </script>
   </body>
