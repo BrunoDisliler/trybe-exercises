@@ -41,8 +41,8 @@
           case 'CHANGE_NAME_1':
             return {
               ...state,
-              nome: state.nome,
-              sobrenome: state.sobrenome,
+              nome: action.nome,
+              sobrenome: action.sobrenome,
             };
           default:
             return state;
@@ -54,8 +54,8 @@
           case 'CHANGE_NAME_2':
             return {
               ...state,
-              nome: state.nome,
-              sobrenome: state.sobrenome,
+              nome: action.nome,
+              sobrenome: action.sobrenome,
             };
           default:
             return state;
@@ -67,13 +67,23 @@
       // CRIANDO UMA STORE
       const store = Redux.createStore(rootReducer);
 
-      // CRIANDO ACTIONS
-      
+      // CRIANDO DISPATCH
+      window.onload = () => {
+        setTimeout(() => {
+          store.dispatch({ 
+            type: 'CHANGE_NAME_1',
+            nome: 'Bruno',
+            sobrenome: 'Disliler',
+          });
+          store.dispatch({
+            type: 'CHANGE_NAME_2',
+            nome: 'Rafaela',
+            sobrenome: 'Campos'
+          })
+        }, 2000);
+      };
+
 
     </script>
   </body>
 </html>
-
-document.getElementById('next').addEventListener('click', () => {
-  store.dispatch({ type: 'NEXT_COLOR' });
-  });
