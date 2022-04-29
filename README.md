@@ -77,7 +77,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - :white_check_mark: 9-5: Dia todo relacionado a soft skills. Dinâmicos em grupo com os temas: História de Vida, Carros Autônomos e Projetando o futuro.
 
-## DESENVOLVIMENTO FRONT-END :hourglass_flowing_sand:
+## DESENVOLVIMENTO FRONT-END :white_check_mark:
 
 ##### Bloco 10: Introdução - React
 
