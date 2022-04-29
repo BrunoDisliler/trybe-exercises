@@ -96,7 +96,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
 - :white_check_mark: 13-2: _Ciclo de vida de componentes em React_
 - :white_check_mark: 13-3: _React Router_
-- :white_check_mark: 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- :white_check_mark: 13-4: _[Projeto - TrybeTunes()_
 
 ##### Bloco 13: Metodologias Ágeis
 
