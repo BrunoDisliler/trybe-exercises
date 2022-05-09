@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :white_check_mark:
+## FUNDAMENTOS DE DESENVOLVIMENTO WEB :white_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
@@ -35,7 +35,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 4-4: _JavaScript - Objetos e funções_
 - :white_check_mark: 4-5: _[Projeto - Playground Functions]()_
 
-##### Bloco 5: Introdução - JavaScript - Projetos
+##### Bloco 5:  - JavaScript Avançado
 
 - :white_check_mark: 5-1: _JavaScript - DOM e seletores_
 - :white_check_mark: 5-2: _JavaScript - Trabalhando com elementos_
@@ -60,7 +60,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 7-1: 7-3: _Primeiro passos em Jest_
 - :white_check_mark: 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: JavaScript ES6 Avançado
 
 - :white_check_mark: 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - :white_check_mark: 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
@@ -68,7 +68,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - :white_check_mark: 8-5: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: JS - Assincronicidade & Callbacks
 
 - :white_check_mark: 9-1: _JavaScript Assíncrono e Callbacks_
 - :white_check_mark: 9-2: _JavaScript Assíncrono - Fetch API e async/await_
@@ -133,7 +133,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 19-1: _[Projeto - App de Receitas]()_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## DESENVOLVIMENTO BACK-END :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
