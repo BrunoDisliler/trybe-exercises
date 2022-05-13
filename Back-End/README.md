@@ -1,5 +1,5 @@
 # Módulo Backend - Trybe
-## Este repositório contém todas as anotações, práticas e exercicios do Módulo de Backend, implementados por Bruno Disliler durante o curso de formação em desenvolvimento fullstack na Trybe
+### Este repositório contém todas as anotações, práticas e exercicios do Módulo de Backend, <br> implementados por Bruno Disliler durante o curso de formação em desenvolvimento <br> fullstack na Trybe.
 
 ### Bloco 19 - Docker:
  ✅ Utilizando Containers <br>
