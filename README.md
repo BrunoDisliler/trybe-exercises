@@ -131,14 +131,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- :white_check_mark: 19-1: _[Projeto - App de Receitas]()_
 
 ## DESENVOLVIMENTO BACK-END :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
-- [ ] 19-1: _Introdução - Back-End & Utilizando Containers com Docker_
-- [ ] 19-2: _Manipulação e Criação de Imagens com Docker_
+- :white_check_mark: 19-1: _Introdução - Back-End & Utilizando Containers com Docker_
+- :white_check_mark: 19-2: _Manipulação e Criação de Imagens com Docker_
 - [ ] 19-3: _Orquestrando containers com Docker Compose_
 - [ ] 19-4: _[Projeto - Docker To Do List()_
 
