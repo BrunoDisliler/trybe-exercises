@@ -4,7 +4,7 @@
 ### Bloco 19 - Docker:
  ✅ Utilizando Containers <br>
  ✅ Manipulação e Criação de Imagens Docker <br>
- ⬜ Orquestrando Containers com Docker Compose <br>
+ ✅ Orquestrando Containers com Docker Compose <br>
  ⬜ Projeto Docker ToDoList <br>
 
 ### Bloco 20 - Introdução a SQL:
