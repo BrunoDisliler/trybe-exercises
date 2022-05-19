@@ -140,12 +140,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 19-1: _Introdução - Back-End & Utilizando Containers com Docker_
 - :white_check_mark: 19-2: _Manipulação e Criação de Imagens com Docker_
 - :white_check_mark: 19-2: 19-3: _Orquestrando containers com Docker Compose_
-- [ ] 19-4: _[Projeto - Docker To Do List()_
+- :white_check_mark: 19-4: _[Projeto - Docker To Do List()_
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
+- :white_check_mark: 20-1: _Banco de dados SQL_
+- :white_check_mark: 20-2: _Encontrando dados em um banco de dados_
 - [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
