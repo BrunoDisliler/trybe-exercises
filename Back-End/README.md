@@ -10,8 +10,8 @@
 ### Bloco 20 - Introdução a SQL:
  ✅ Banco de Dados Relacionais <br>
  ✅ Encontrando Dados em um banco de dados <br>
- ⬜ Filtrando Dados de forma específica <br>
- ⬜Manipulando Tabelas <br>
+ ✅ Filtrando Dados de forma específica <br>
+ ✅ Manipulando Tabelas <br>
  ⬜ Projeto All For One <br>
 
 ### Bloco 21 - Funções, JOIN, Normalização SQL:
