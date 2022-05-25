@@ -12,7 +12,7 @@
  ✅ Encontrando Dados em um banco de dados <br>
  ✅ Filtrando Dados de forma específica <br>
  ✅ Manipulando Tabelas <br>
- ⬜ Projeto All For One <br>
+ ✅ Projeto All For One <br>
 
 ### Bloco 21 - Funções, JOIN, Normalização SQL:
  ⬜ Funções mais usadas no SQL <br>
