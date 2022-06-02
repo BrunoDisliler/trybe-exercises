@@ -135,88 +135,87 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## DESENVOLVIMENTO BACK-END :hourglass_flowing_sand:
 
-##### Bloco 19: DOCKER: Utilizando Containers
+### Bloco 19 - Docker:
+ ✅ Utilizando Containers <br>
+ ✅ Manipulação e Criação de Imagens Docker <br>
+ ✅ Orquestrando Containers com Docker Compose <br>
+ ✅ Projeto Docker ToDoList <br>
 
-- :white_check_mark: 19-1: _Introdução - Back-End & Utilizando Containers com Docker_
-- :white_check_mark: 19-2: _Manipulação e Criação de Imagens com Docker_
-- :white_check_mark: 19-2: 19-3: _Orquestrando containers com Docker Compose_
-- :white_check_mark: 19-4: _[Projeto - Docker To Do List()_
+### Bloco 20 - Introdução a SQL:
+ ✅ Banco de Dados Relacionais <br>
+ ✅ Encontrando Dados em um banco de dados <br>
+ ✅ Filtrando Dados de forma específica <br>
+ ✅ Manipulando Tabelas <br>
+ ✅ Projeto All For One <br>
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+### Bloco 21 - Funções, JOIN, Normalização SQL:
+ ✅ Funções mais usadas no SQL <br>
+ ✅ Descomplicando JOINS <br>
+ ✅ Transformando ideias em um modelo de banco de dados <br>
+ ✅ Projeto One For All <br>
 
-- :white_check_mark: 20-1: _Banco de dados SQL_
-- :white_check_mark: 20-2: _Encontrando dados em um banco de dados_
-- :white_check_mark: 20-3: _Filtrando dados de forma específica_
-- :white_check_mark: 20-4: _Manipulando tabelas_
-- :white_check_mark: 20-5: _[Projeto - All For One]()_
+### Bloco 22 - Introdução ao Desenvolvimento Web com NodeJS:
+ ⬜ NodeJs <br>
+ ⬜ Fluxo Assíncrono <br>
+ ⬜ Mocha, Chai e Sinon - Testes com NodeJs <br>
+ ⬜ Express - HTTP com Nodejs <br>
+ ⬜ Express - Middlewares <br>
+ ⬜ Projeto Talker Manager <br>
 
-##### Bloco 21: Bancos de dados relacionais
+### Bloco 23 - Nodejs - Camada de Serviço e Arquitetura Rest e RestFull:
+ ⬜ Arquitetura - Camada Model <br>
+ ⬜ Arquitetura - Camada Controller e Services <br>
+ ⬜ Arquitetura Web - Rest e RestFull <br>
+ ⬜ Arquitetura de Software - Testando as camadas <br>
+ ⬜ Projeto Store Manager <br>
 
-- :white_check_mark: 21-1: _Funções mais usadas no SQL_
-- :white_check_mark: 21-2: _Descomplicando JOINs e UNIONs_
-- :white_check_mark: 21-3: _Stored Routines & Subqueries_
-- :white_check_mark: 21-4: _[Projeto -One For All]()_
+### Bloco 24 - Nodejs - ORM e Autenticação:
+ ⬜ ORM - Interface da aplicação com o Banco de Dados <br>
+ ⬜ ORM - Associations <br>
+ ⬜ JWT - Json Web Token <br>
+ ⬜ Testando Apis com Teste de Integração <br>
+ ⬜ Projeto APIS de Blogs <br>
 
-##### Bloco 22: Bancos de dados relacionais
+### Bloco 25 - Deployment:
+ ⬜ Infraestrutura - Deploy com Heroku <br>
+ ⬜ Deploy Docker & Heroku  <br>
+ ⬜ Projeto Stranger Things <br>
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+### Bloco 26 - Typescript:
+ ⬜ Introdução ao Typescript <br>
+ ⬜ Tipagem Estática e Genérica <br>
+ ⬜ Express com Typescript <br>
+ ⬜ Projeto Trybe Smith <br>
 
-##### Bloco 23: Introdução - NoSQL
+### Bloco 27 - Programando Orientado a Objetos - POO e SOLID:
+ ⬜ Introdução à Orientação a Objetos <br>
+ ⬜ Herança e Interfaces <br>
+ ⬜ Polimorfismo <br>
+ ⬜ SOLID - Princípios S, O, D <br>
+ ⬜ SOLID - Princípios L e I <br>
+ ⬜ Projeto Trybers and Dragons <br>
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+ ⬜ ### Bloco 28 - Projeto Trybe Futebol Club <br>
 
-##### Bloco 24: Updates
+### Bloco 29 - Introdução ao MongoDB:
+ ⬜ MogoDB - NoSQL <br>
+ ⬜ Filter Operators <br>
+ ⬜ Operadores de Consulta <br>
+ ⬜ Updates Simples <br>
+ ⬜ Updates Complexos - Arrays <br>
+ ⬜ Projeto Commerce <br>
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+### Bloco 30 - MongoDB com NodeJs e POO:
+ ⬜ MongoDB e Arquitetura MSC <br>
+ ⬜ MongoDB e POO <br>
+ ⬜ Operadores de Consulta <br>
+ ⬜ Projeto Car Shop <br>
 
-##### Bloco 25: Aggregation Framework
+ ### ⬜ Bloco 31 - Projeto App Delivery 
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
-
-##### Bloco 26: Intro - NodeJS
-
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
-
-##### Bloco 27: NodeJS
-
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
-
-##### Bloco 28: NodeJS
-
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
-
-##### Bloco 29: NodeJS
-
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
-
-##### Bloco 30: Introdução - Deploy
-
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
-
-##### Bloco 31: Projeto
-
-- [ ] 31-1: _[Projeto - Trybeer]()_
+ ### ⬜ Bloco 32 - MasterClass - VPS, CI/CD:
+ ⬜ Dia 1 <br>
+ ⬜ Dia 2 <br>
 
 ##### Bloco 32: Arquitetura de Software
 
