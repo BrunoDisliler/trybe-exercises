@@ -15,10 +15,10 @@
  ✅ Projeto All For One <br>
 
 ### Bloco 21 - Funções, JOIN, Normalização SQL:
- ⬜ Funções mais usadas no SQL <br>
- ⬜Descomplicando JOINS <br>
- ⬜ Transformando ideias em um modelo de banco de dados <br>
- ⬜ Projeto One For All <br>
+ ✅ Funções mais usadas no SQL <br>
+ ✅ Descomplicando JOINS <br>
+ ✅ Transformando ideias em um modelo de banco de dados <br>
+ ✅ Projeto One For All <br>
 
 ### Bloco 22 - Introdução ao Desenvolvimento Web com NodeJS:
  ⬜ NodeJs <br>
