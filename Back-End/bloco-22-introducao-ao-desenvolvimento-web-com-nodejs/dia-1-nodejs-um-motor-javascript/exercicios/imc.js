@@ -2,12 +2,18 @@ const readLine = require('readline-sync')
 
 console.log('Calculadora de IMC')
 
-const w = readLine.question('Digite seu peso: ')
-const h = readLine.question('Digite sua altura: ')
-
-function imc(peso, altura) {
-  console.log((peso / altura) * 2);
+function calculaImc(peso, altura) {
+  const alturaEmMetros = altura / 100;
+  const alturaAoQuadrado = alturaEmMetros ** 2;
+  const imc = (peso / alturaAoQuadrado);
+  return imc
 }
-  
 
-console.log(`Seu IMC baseado em sua altura de ${h} e seu peso de ${w}, é de: ${imc()}`);
+function main() {
+  const w = readLine.questionFloat('Digite seu peso (em Kg): ')
+  const h = readLine.questionInt('Digite sua altura (em Cm): ')
+  const imc = calculaImc(w, h)
+  console.log(`Seu IMC baseado em sua altura de ${h} e seu peso de ${w}, é de: ${imc}`);
+}
+
+main();
