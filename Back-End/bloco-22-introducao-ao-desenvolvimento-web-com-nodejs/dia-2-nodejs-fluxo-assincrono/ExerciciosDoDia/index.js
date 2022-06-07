@@ -1,20 +1,36 @@
-const firstExercise = (param1, param2, param3) => {
-  const promise = new Promise((resolve, reject) => {
-    if (param1 === isNaN || param2 === isNaN || param3 === isNaN) {
-      reject(new Error("Informe apenas números"))
+function doMath(a, b, c) {
+  return new Promise((resolve, reject) => {
+    /* Caso o tipo de algum parâmetro não seja `number`, rejeitamos a Promise */
+    if (typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number') {
+      return reject(new Error('Informe apenas números')); 
     }
-    else if (param1 !== isNaN && param2 !== isNaN && param3 !== isNaN) {
-      const sum = ((param1 + param2) * param3)
-      if (sum < 50) {
-        reject(new Error("Valor muito baixo"))
-      } else if (sum > 50) {
-        resolve(sum)
-      }
+
+    const result = (a + b) * c;
+
+    if (result < 50) {
+      return reject(new Error('Valor muito baixo'));
     }
+
+    resolve(result);
   });
-  return promise;
 }
 
-firstExercise(10, 10, 10)
-  .then(result => console.log(`Resultado: ${result}`))
-  .catch(err => console.log(`Erro: ${err.message}`))
+ function getRandomNumber() {
+   return Math.floor(Math.random() * 100 + 1);
+ }
+
+ function callDoMath() {
+   /* Criamos um novo array de 3 posições e utilizamos o `map` para gerar um número aleatório para cada posição do Array */
+   const randomNumbers = Array.from({ length: 3 }).map(getRandomNumber);
+   console.log(randomNumbers);
+
+   return randomNumbers;
+ }
+
+doMath(...callDoMath)
+  .then((result) => console.log(result))
+  .catch((err) => console.error(err.message));
+
+ doMath(10, 10, 10)
+   .then((resolve) => console.log(resolve))
+   .catch((error) => console.log(error.message));
