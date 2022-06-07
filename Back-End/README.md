@@ -21,8 +21,8 @@
  ✅ Projeto One For All <br>
 
 ### Bloco 22 - Introdução ao Desenvolvimento Web com NodeJS:
- ⬜ NodeJs <br>
- ⬜ Fluxo Assíncrono <br>
+ ✅ NodeJs <br>
+ ✅ Fluxo Assíncrono <br>
  ⬜ Mocha, Chai e Sinon - Testes com NodeJs <br>
  ⬜ Express - HTTP com Nodejs <br>
  ⬜ Express - Middlewares <br>
