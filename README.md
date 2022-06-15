@@ -157,9 +157,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ### Bloco 22 - Introdução ao Desenvolvimento Web com NodeJS:
  ✅ NodeJs <br>
  ✅ Fluxo Assíncrono <br>
- ⬜ Mocha, Chai e Sinon - Testes com NodeJs <br>
- ⬜ Express - HTTP com Nodejs <br>
- ⬜ Express - Middlewares <br>
+ ✅ Mocha, Chai e Sinon - Testes com NodeJs <br>
+ ✅ Express - HTTP com Nodejs <br>
+ ✅ Express - Middlewares <br>
  ⬜ Projeto Talker Manager <br>
 
 ### Bloco 23 - Nodejs - Camada de Serviço e Arquitetura Rest e RestFull:
