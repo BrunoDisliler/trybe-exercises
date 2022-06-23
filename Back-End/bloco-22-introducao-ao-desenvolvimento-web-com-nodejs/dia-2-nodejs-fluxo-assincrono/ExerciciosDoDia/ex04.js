@@ -13,4 +13,16 @@ async function readFiles() {
   }
 }
 
+async function filter() {
+    const data = await fs.readFile(simpson, 'utf8');
+    const dataArray = JSON.parse(data);
+    const newArray = dataArray.filter((simpson) => simpson.id !== '6' && simpson.id !== '10');
+    console.log(newArray);
+}
+
+async function readFile() {
+  const data = await fs.readFile(simpson, 'utf8');
+}
+
 readFiles();
+filter();
