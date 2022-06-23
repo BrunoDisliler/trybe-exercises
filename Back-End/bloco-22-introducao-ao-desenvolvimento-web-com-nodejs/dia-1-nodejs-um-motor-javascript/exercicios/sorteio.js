@@ -20,3 +20,5 @@ function numeroAleatorio() {
 
 numeroAleatorio();
 
+module.exports = numeroAleatorio;
+
