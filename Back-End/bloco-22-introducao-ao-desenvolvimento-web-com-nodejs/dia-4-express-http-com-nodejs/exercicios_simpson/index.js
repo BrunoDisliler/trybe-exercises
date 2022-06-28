@@ -10,6 +10,10 @@ const getSimpsons = async () => {
     .then((file) => JSON.parse(file));
 }
 
+const setSimpsons = (newSimpsons) => {
+  return fs.writeFile('./simpsons.json', JSON.stringify(newSimpsons));
+}
+
 app.get('/simpsons', async (_req, res) => {
   try {
     const simpsons = await getSimpsons()
@@ -31,5 +35,23 @@ app.get('/simpsons/:id', async (req, res) => {
     res.status(500).end()
   }
 }) 
+
+app.post('/simpsons', async (req, res) => {
+  try {
+    const { id, name } = req.body
+    const simpsons = getSimpsons()
+    if (simpsons.some((character) => character.id === id)) {
+      return res.status(409).json({ message: 'id already exists' })
+    }
+    simpsons.push({ id, name })
+
+    await setSimpsons(simpsons)
+
+    return res.status(204).end()
+  } catch (error) {
+    res.status(500).end()
+  }
+  
+})
 
 app.listen('3003', () => { console.log('Ouvindo na porta 3003') })
