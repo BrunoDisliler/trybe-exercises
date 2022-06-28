@@ -18,6 +18,11 @@ app.post('/greetings', (req, res) => {
   } return res.status(401).json({ message: `Unauthorized` })
 })
 
+app.put('/users/:name/:age', (req, res) => {
+  const { name, age } = req.params
+  return res.status(200).json( {message: `Your name is ${name} and you got ${age} years old.`} )
+})
+
 
 
 app.listen('3002', () => {
