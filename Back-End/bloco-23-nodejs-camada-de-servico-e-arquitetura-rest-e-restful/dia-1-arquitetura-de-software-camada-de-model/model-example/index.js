@@ -12,10 +12,10 @@ app.get('/authors', async (_req, res) => {
 });
 
 app.get('/books', async (_req, res) => {
-  const books = await Books.getBooks();
+  const books = await Books.getAll();
 
   res.status(200).json(books);
-})
+});
 
 
 const PORT = process.env.PORT || 3000;
