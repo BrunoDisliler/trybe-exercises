@@ -22,6 +22,7 @@ const getAuhorById = async (authorId) => {
 
 module.exports = {
   getAll,
+  getAuhorById,
 };
 
 // Crie um método getByAuthorId no modelo Book, 
