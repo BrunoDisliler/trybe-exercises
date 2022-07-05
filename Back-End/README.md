@@ -32,8 +32,8 @@
  ✅ Arquitetura - Camada Model <br>
  ✅ Arquitetura - Camada Controller e Services <br>
  ✅ Arquitetura Web - Rest e RestFull <br>
- ⬜ Arquitetura de Software - Testando as camadas <br>
- ⬜ Projeto Store Manager <br>
+ ✅ Arquitetura de Software - Testando as camadas <br>
+ ✅ Projeto Store Manager <br>
 
 ### Bloco 24 - Nodejs - ORM e Autenticação:
  ⬜ ORM - Interface da aplicação com o Banco de Dados <br>
