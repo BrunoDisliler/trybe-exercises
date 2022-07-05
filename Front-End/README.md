@@ -1,7 +1,38 @@
-# FRONT-END
+DESENVOLVIMENTO FRONT-END ✅
 
-Nesse módulo aprendi sobre formulários HTML, CSS Flexbox e a como utilizar bibliotecas externas de JavaScript. Na sequência aprendi a criar estilos de forma responsiva, com foco em diferentes tamanhos de tela. E então aprendi sobre as principais funcionalidades da última versão do JavaScript, o ES6. Na última parte, aprendi a utilizar o framework `React` para criar aplicações de front-end que se conectam com APIs.
-
-Com isso me tornei capaz de criar páginas com formulários, estilizadas de forma responsiva, utilizando frameworks e bibliotecas externas para a estilização e validação de dados. Sei agora utilizar as principais funcionalidades do `ECMAScript 6`, a mais recente versão do `JavaScript`. E também sou capaz de criar aplicações completas de front-end utilizando o framework `React`.
-
-Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de `Front-end` do curso da [Trybe](https://www.betrybe.com/).
+Bloco 10: Introdução - React
+✅ 11-1: 'Hello, world!' no React!
+✅ 11-2: Componentes React
+✅ 11-3: Solar System
+Bloco 11: React - Componentes com Estado, Eventos e Formulários com React
+✅ 12-1: Components com estado e eventos
+✅ 12-2: Formulários no React
+✅ 12-3: Tryunfo
+Bloco 12: React - Ciclo de Vida de Componentes e React Router
+✅ 13-1: Melhorando o reuso de componentes: props.children e PropTypes
+✅ 13-2: Ciclo de vida de componentes em React
+✅ 13-3: React Router
+✅ 13-4: [Projeto - TrybeTunes()
+Bloco 13: Metodologias Ágeis
+✅ 14-1: Metodologias Ágeis
+✅ 14-2: Projeto - Frontend Online Store
+Bloco 14: Testes automatizados com React Testing Library
+✅ 15-1: Testando React com a React Testing Library
+✅ 15-2: Testando React com a React Testing Library - Parte 2
+✅ 15-3: Projeto - Testes em React
+Bloco 15: Gerenciamento de estado com Redux
+✅ 16-1: Introdução ao Redux
+✅ 16-2: React com Redux - Parte 1
+✅ 16-3: React com Redux - Prática
+✅ 16-4: React com Redux - Parte 2
+✅ 16-5: Testes síncronos com React-Redux
+✅ 16-6: Projeto - TrybeWallet
+Bloco 16: Projeto React
+✅ 17-1: Projeto - Jogo de Trivia
+Bloco 17: Context API e React Hooks
+✅ 18-1: Context API do React
+✅ 18-2: React Hooks - useState e useContext
+✅ 18-3: React Hooks - useEffect e Hooks customizados
+✅ 18-4: Projeto - StarWars Datatable com Context API e Hooks.
+Bloco 18: Projeto Final de Front-end
+✅ 19-1: Projeto - App de Receitas
