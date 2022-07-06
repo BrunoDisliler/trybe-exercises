@@ -1,4 +1,3 @@
-=======
 ## DESENVOLVIMENTO FRONT-END :white_check_mark:
 
 ##### Bloco 10: Introdução - React
