@@ -2,7 +2,7 @@ const readLine = require('readline-sync')
 
 const sorteio = () => {
   const numAleatorio = Math.floor(Math.random() * 10 + 1)
-  const numEscolhido = readLine.questionInt(`${numAleatorio}Digite um número entre 0 e 10: `)
+  const numEscolhido = readLine.questionInt('Digite um número entre 0 e 10: ')
   if (numEscolhido === numAleatorio) {
     console.log('Parabéns, número correto')
     return
