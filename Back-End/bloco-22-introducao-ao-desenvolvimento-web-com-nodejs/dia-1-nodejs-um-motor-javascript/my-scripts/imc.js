@@ -1,7 +1,7 @@
 const readLine = require('readline-sync')
 
 const calcImc = () => {
-  const peso = readLine.question('Digite seu peso: ') 
+  const peso = readLine.questionFloat('Digite seu peso: ') 
   const altura = readLine.question('Digite sua altura: ')
   const alturaMetros = altura / 100
   const alturaQuadrado = alturaMetros ** 2
