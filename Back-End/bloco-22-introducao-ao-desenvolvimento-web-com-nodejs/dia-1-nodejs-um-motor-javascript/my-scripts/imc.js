@@ -1,10 +1,11 @@
-const ALTURA = 180
-const PESO = 90
+const readLine = require('readline-sync')
 
 const calcImc = () => {
-  const alturaMetros = ALTURA / 100
+  const peso = readLine.question('Digite seu peso: ') 
+  const altura = readLine.question('Digite sua altura: ')
+  const alturaMetros = altura / 100
   const alturaQuadrado = alturaMetros ** 2
-  const imc = PESO / (alturaQuadrado)
+  const imc = peso / (alturaQuadrado)
 
   console.log(`IMC: ${imc.toFixed(2)}kg/m2`) 
 }
