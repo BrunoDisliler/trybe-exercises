@@ -13,14 +13,8 @@ const testeAssincrono = (p1, p2, p3) => {
   });
 }
 
-testeAssincrono(30, 20, 30)
-  .then((resolve) => console.log(`Sucesso: ${resolve}`))
-  .catch((error) => console.log(`Erro: ${error.message}`));
+const randomNum = Math.floor(Math.random() * 100 + 1);
 
-testeAssincrono(2, 20, 'a')
-  .then((resolve) => console.log(`Sucesso: ${resolve}`))
-  .catch((error) => console.log(`Erro: ${error.message}`));
-
-testeAssincrono(2, 3, 5)
+testeAssincrono(randomNum, randomNum, randomNum)
   .then((resolve) => console.log(`Sucesso: ${resolve}`))
   .catch((error) => console.log(`Erro: ${error.message}`));
