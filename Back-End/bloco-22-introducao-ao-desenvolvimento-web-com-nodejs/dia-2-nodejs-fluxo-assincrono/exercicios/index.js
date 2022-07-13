@@ -1,20 +1,23 @@
-const testeAssincrono = (p1, p2, p3) => {
-  return new Promise((resolve, reject) => {
-    if (isNaN(p1) || isNaN(p2) || isNaN(p3)) {
-      return reject(new Error("Informe apenas números"));
-    }
-    const resultado = (p1 + p2) * p3;
-    if (resultado < 50) {
-      return reject(new Error("Valor muito baixo"));
-    }
+const testeAssincrono = async (p1, p2, p3) => {
+  const resultado = await (p1 + p2) * p3;
+  try {
     if (resultado > 50) {
-      resolve(resultado)
-    };
-  });
+      console.log(`Resultado: ${resultado}`);
+    }
+    if (isNaN(p1) || isNaN(p2) || isNaN(p3)) {
+      console.error("Informe apenas números");
+    }
+    if (resultado < 50) {
+      console.error("Erro: Valor muito baixo");
+    }
+  } catch (err) {
+    console.error(err.message);
+  }
 }
 
 const randomNum = Math.floor(Math.random() * 100 + 1);
 
-testeAssincrono(randomNum, randomNum, randomNum)
-  .then((resolve) => console.log(`Sucesso: ${resolve}`))
-  .catch((error) => console.log(`Erro: ${error.message}`));
+testeAssincrono(10, 20, 30)
+
+
+
