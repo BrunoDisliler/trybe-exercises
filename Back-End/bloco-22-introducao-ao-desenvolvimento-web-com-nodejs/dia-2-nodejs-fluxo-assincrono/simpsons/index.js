@@ -33,6 +33,19 @@ const removeSimpson = async () => {
   }
 }
 
+const createSimpsons = async () => {
+  try {
+    const simpsonsData = await fs.readFile(simpsons, 'utf-8')
+    const newSimpsonsData = JSON.parse(simpsonsData)
+    const ids = [1, 2, 3, 4]
+    const simpsonsFamily = newSimpsonsData.filter((simpson) => ids.includes(Number(simpson.id)))
+    await fs.writeFile('./simpsonsFamily.json', JSON.stringify(simpsonsFamily))
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 readSimpsons();
 findSimpsonId(1);
 removeSimpson();
+createSimpsons();
