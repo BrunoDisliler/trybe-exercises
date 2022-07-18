@@ -155,7 +155,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  ✅ Projeto One For All <br>
 
 ### Bloco 22 - Introdução ao Desenvolvimento Web com NodeJS:
- ⬜ NodeJs <br>
+ ✅ NodeJs <br>
  ⬜ Fluxo Assíncrono <br>
  ⬜ Mocha, Chai e Sinon - Testes com NodeJs <br>
  ⬜ Express - HTTP com Nodejs <br>
