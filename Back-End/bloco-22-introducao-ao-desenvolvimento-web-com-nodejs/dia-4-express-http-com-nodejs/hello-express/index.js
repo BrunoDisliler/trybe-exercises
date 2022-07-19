@@ -1,4 +1,3 @@
-/* index.js */
 const express = require('express');
 const app = express();
 
@@ -21,6 +20,12 @@ app.get('/recipes', function (_req, res) {
   res.json(recipes);
 });
 
+app.get('/recipes/search', function (req, res) {
+	const { name, minPrice } = req.query;
+	const filteredRecipes = recipes.filter((r) => r.name.includes(name) && r.price >= Number(minPrice));
+	res.status(200).json(filteredRecipes);
+})
+
 app.get('/recipes/:id', function (req, res) {
   const { id } = req.params;
   const recipe = recipes.find((r) => r.id === Number(id));
@@ -28,7 +33,7 @@ app.get('/recipes/:id', function (req, res) {
   if (!recipe) return res.status(404).json({ message: 'Recipe not found!' });
 
   res.status(200).json(recipe);
-})
+});
 
 app.get('/drinks', function (_req, res) {
   const drinksOrder = drinks.sort(function(a, b) {
@@ -37,12 +42,18 @@ app.get('/drinks', function (_req, res) {
     } return true;
   });
   res.json(drinksOrder);
+});
+
+app.get('/drinks/search', function (req, res) {
+  const { name } = req.query;
+  const search = drinks.filter((r) => r.name.includes(name))
+  res.status(200).json(search);
 })
 
 app.get('/drinks/:id',function (req, res) {
   const { id } = req.params;
   const recipe = drinks.find((r) => r.id === Number(id));
-  
+
   if (!recipe) return res.status(404).json({ message: "Drink recipe not Found" });
 
   return res.status(200).json(recipe);
