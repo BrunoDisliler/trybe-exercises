@@ -19,7 +19,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 2-2: _Entendendo os comandos_
 - :white_check_mark: 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução - HTML & CSS
+##### Bloco 3: Introdução HTML & CSS
 
 - :white_check_mark: 3-1: _HTML & CSS - Estruturas de página_
 - :white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_
@@ -129,7 +129,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 18-3: _React Hooks - useEffect e Hooks customizados_
 - :white_check_mark: 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_.
 
-##### Bloco 18: Projeto Final de Front-end
+##### Bloco 18: Projeto Final de Front-end em grupo
 
 - :white_check_mark: 19-1: _[Projeto - App de Receitas]()_
 
@@ -156,7 +156,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 22 - Introdução ao Desenvolvimento Web com NodeJS:
  ✅ NodeJs <br>
- ✅ Fluxo Assíncrono <br>
+ ⬜ Fluxo Assíncrono <br>
  ⬜ Mocha, Chai e Sinon - Testes com NodeJs <br>
  ⬜ Express - HTTP com Nodejs <br>
  ⬜ Express - Middlewares <br>
