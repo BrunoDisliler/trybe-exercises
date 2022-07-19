@@ -21,6 +21,15 @@ app.get('/recipes', function (_req, res) {
   res.json(recipes);
 });
 
+app.get('/recipes/:id', function (req, res) {
+  const { id } = req.params;
+  const recipe = recipes.find((r) => r.id === Number(id));
+
+  if (!recipe) return res.status(404).json({ message: 'Recipe not found!' });
+
+  res.status(200).json(recipe);
+})
+
 app.get('/drinks', function (_req, res) {
   const drinksOrder = drinks.sort(function(a, b) {
     if(a.name < b.name) {
@@ -29,6 +38,16 @@ app.get('/drinks', function (_req, res) {
   });
   res.json(drinksOrder);
 })
+
+app.get('/drinks/:id',function (req, res) {
+  const { id } = req.params;
+  const recipe = drinks.find((r) => r.id === Number(id));
+  
+  if (!recipe) return res.status(404).json({ message: "Drink recipe not Found" });
+
+  return res.status(200).json(recipe);
+})
+
 
 app.listen(3001, () => {
   console.log('Aplicação ouvindo na porta 3001');
