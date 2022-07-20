@@ -31,7 +31,27 @@ app.get('/simpsons/:id', async (req, res) => {
   } catch (error) {
     return res.status(500).end();
   }
-})
+});
+
+// Exercício 08
+app.post('/simpsons', async (req, res) => {
+  try {
+    const { id, name } = req.body;
+    const simpsons = await simpsonsUtils.getSimpsons();
+
+    if (simpsons.some((character) => character.id === id)) {
+      return res.status(409).json({ message: 'id already exists' });
+    }
+    simpsons.push({ id, name });
+
+    await simpsonsUtils.setSimpsons(simpsons);
+
+    return res.status(204).end();
+
+  } catch (error) {
+    return res.status(500).end();
+  }
+});
 
 app.listen(3003, () => {
   console.log('Aplicação ouvindo na porta 3003');
