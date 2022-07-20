@@ -1,8 +1,27 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const authMiddleware = require('./auth-middleware');
 
 const app = express();
 app.use(bodyParser.json());
+
+// Esta rota não passa pelo middleware de autenticação!
+app.get('/open', (req, res) => {
+  res.send('open!')
+});
+
+// Visualizando conteúdo das requisições no console
+app.use((req, _res, next) => {
+  console.log('req.method:', req.method);
+  console.log('req.path:', req.path);
+  console.log('req.params:', req.params);
+  console.log('req.query:', req.query);
+  console.log('req.headers:', req.headers);
+  console.log('req.body:', req.body);
+  next();
+});
+
+app.use(authMiddleware);
 
 const recipes = [
   { id: 1, name: 'Lasanha', price: 40.0, waitTime: 30 },
