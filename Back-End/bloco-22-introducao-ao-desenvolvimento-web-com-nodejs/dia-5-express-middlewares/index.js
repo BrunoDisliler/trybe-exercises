@@ -14,10 +14,16 @@ const recipes = [
 const validateName = (req, res, next) => {
   const { name } = req.body;
   if (!name || name === '') return res.status(400).json({ message: 'Invalid Data' });
-
   next();
 };
 
+// Exercício Proposto 02 - Para fixar
+const validatePrice = (req, res, next) => {
+  const { price } = req.body;
+  if(!price || price < 0 || isNaN(price)) return res.status(400).json({ message: 'Invalid Price' });
+  // Outra forma de fazer (price === undefined || price < 0 || typeof price !== 'number')
+  next();
+}
 
 app.get('/recipes', (req, res) => {
   res.status(200).json(recipes);
@@ -37,13 +43,13 @@ app.get('/recipes/:id', (req, res) => {
   res.status(200).json(recipe);
 });
 
-app.post('/recipes', validateName, (req, res) => {
+app.post('/recipes', validatePrice, validateName, (req, res) => {
   const { id, name, price, waitTime } = req.body;
   recipes.push({ id, name, price, waitTime});
   res.status(201).json({ message: 'Recipe created successfully!'});
 });
 
-app.put('/recipes/:id', validateName, (req, res) => {
+app.put('/recipes/:id', validatePrice, validateName, (req, res) => {
   const { id } = req.params;
   const { name, price, waitTime } = req.body;
   const recipeIndex = recipes.findIndex((r) => r.id === Number(id));
