@@ -2,6 +2,7 @@ const express = require('express');
 const validateProductName = require('../middlewares/validateProductName');
 const validateInfos = require('../middlewares/validateInfos');
 const validateSaleDate = require('../middlewares/validateSaleDate');
+const validateWarrantyPeriod = require('../middlewares/validateWarrantyPeriod');
 
 const app = express();
 app.use(express.json());
@@ -16,9 +17,12 @@ app.use((req, _res, next) => {
   next();
 });
 
-app.post('/sales', validateProductName, validateInfos, validateSaleDate, (_req, res) => {
-  res.status(201).json({ message: 'Venda criada com sucesso!'})
-})
+app.post('/sales', 
+  validateProductName, 
+  validateInfos, 
+  validateSaleDate, 
+  validateWarrantyPeriod, 
+  (_req, res) => { res.status(201).json({ message: 'Venda cadastrada com sucesso!'}) })
 
 
 
