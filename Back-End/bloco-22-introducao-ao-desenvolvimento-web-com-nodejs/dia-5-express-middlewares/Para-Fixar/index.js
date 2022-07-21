@@ -4,6 +4,7 @@ const authMiddleware = require('./auth-middleware');
 
 const app = express();
 app.use(bodyParser.json());
+// app.use(express.json()); Alternativa extra ao bodyParser
 
 // Esta rota não passa pelo middleware de autenticação! Não utilizar em produção, apenas em desenvolvimento
 app.get('/open', (req, res) => {
