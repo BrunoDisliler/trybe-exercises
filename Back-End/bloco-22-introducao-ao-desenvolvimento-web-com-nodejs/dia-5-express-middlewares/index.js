@@ -5,13 +5,12 @@ const authMiddleware = require('./auth-middleware');
 const app = express();
 app.use(bodyParser.json());
 
-app.get('/open', function (req, res) {
+// Esta rota não passa pelo middleware de autenticação! Não utilizar em produção, apenas em desenvolvimento
+app.get('/open', (req, res) => {
   res.send('open!')
 });
 
-app.use(authMiddleware);
-
-// Visualizando o conteúdo das requisições no Console
+// Visualizando conteúdo das requisições no console
 app.use((req, _res, next) => {
   console.log('req.method:', req.method);
   console.log('req.path:', req.path);
@@ -22,23 +21,40 @@ app.use((req, _res, next) => {
   next();
 });
 
+app.use(authMiddleware);
+
 const recipes = [
   { id: 1, name: 'Lasanha', price: 40.0, waitTime: 30 },
   { id: 2, name: 'Macarrão a Bolonhesa', price: 35.0, waitTime: 25 },
   { id: 3, name: 'Macarrão com molho branco', price: 35.0, waitTime: 25 },
 ];
 
-app.get('/recipes', function (req, res) {
+// Exercício Proposto 01 - Para fixar
+const validateName = (req, res, next) => {
+  const { name } = req.body;
+  if (!name || name === '') return res.status(400).json({ message: 'Invalid Data' });
+  next();
+};
+
+// Exercício Proposto 02 - Para fixar
+const validatePrice = (req, res, next) => {
+  const { price } = req.body;
+  if(!price || price < 0 || isNaN(price)) return res.status(400).json({ message: 'Invalid Price' });
+  // Outra forma de fazer (price === undefined || price < 0 || typeof price !== 'number')
+  next();
+}
+
+app.get('/recipes', (req, res) => {
   res.status(200).json(recipes);
 });
 
-app.get('/recipes/search', function (req, res) {
+app.get('/recipes/search', (req, res) => {
   const { name, maxPrice } = req.query;
   const filteredRecipes = recipes.filter((r) => r.name.includes(name) && r.price < Number(maxPrice));
   res.status(200).json(filteredRecipes);
 });
 
-app.get('/recipes/:id', function (req, res) {
+app.get('/recipes/:id', (req, res) => {
   const { id } = req.params;
   const recipe = recipes.find((r) => r.id === Number(id));
   if (!recipe) return res.status(404).json({ message: 'Recipe not found!'});
@@ -46,25 +62,13 @@ app.get('/recipes/:id', function (req, res) {
   res.status(200).json(recipe);
 });
 
-function validateName(req, res, next) {
-  const { name } = req.body
-  if (!name || name === '') return res.status(400).json({ message: 'Invalid data!' });
-  next();
-}
-
-function validatePrice(req, res, next) {
-  const { price } = req.body
-  if (price === undefined || price < 0 || isNaN(price)) res.status(400).json({ message: 'Invalid price!' });
-  next();
-}
-
-app.post('/recipes', validateName, validatePrice, function (req, res) {
-  const { id, name, price } = req.body;
-  recipes.push({ id, name, price});
+app.post('/recipes', validatePrice, validateName, (req, res) => {
+  const { id, name, price, waitTime } = req.body;
+  recipes.push({ id, name, price, waitTime});
   res.status(201).json({ message: 'Recipe created successfully!'});
 });
 
-app.put('/recipes/:id', validateName, validatePrice, function (req, res) {
+app.put('/recipes/:id', validatePrice, validateName, (req, res) => {
   const { id } = req.params;
   const { name, price, waitTime } = req.body;
   const recipeIndex = recipes.findIndex((r) => r.id === Number(id));
@@ -76,7 +80,7 @@ app.put('/recipes/:id', validateName, validatePrice, function (req, res) {
   res.status(204).end();
 });
 
-app.delete('/recipes/:id', function (req, res) {
+app.delete('/recipes/:id', (req, res) => {
   const { id } = req.params;
   const recipeIndex = recipes.findIndex((r) => r.id === Number(id));
 
@@ -87,10 +91,10 @@ app.delete('/recipes/:id', function (req, res) {
   res.status(204).end();
 });
 
-app.all('*', function (req, res) {
+app.all('*', (req, res) => {
 	return res.status(404).json({ message: `Rota '${req.path}' não existe!`});
 });
 
-app.listen(3001, () => {
-  console.log('Aplicação ouvindo na porta 3001');
+app.listen(3008, () => {
+  console.log('Aplicação ouvindo na porta 3008');
 });
