@@ -3,6 +3,7 @@ const validateProductName = require('../middlewares/validateProductName');
 const validateInfos = require('../middlewares/validateInfos');
 const validateSaleDate = require('../middlewares/validateSaleDate');
 const validateWarrantyPeriod = require('../middlewares/validateWarrantyPeriod');
+const crypto = require('crypto');
 
 const app = express();
 app.use(express.json());
@@ -24,6 +25,21 @@ app.post('/sales',
   validateWarrantyPeriod, 
   (_req, res) => { res.status(201).json({ message: 'Venda cadastrada com sucesso!'}) })
 
+  app.post('/signup', (req, res) => {
+    try {
+      const { email, password, firstName, phone } = req.body;
+  
+      if ([email, password, firstName, phone].includes(undefined)) {
+        return res.status(401).json({ message: 'missing fields' });
+      }
+  
+      const token = crypto.randomBytes(8).toString('hex');
+  
+      return res.status(200).json({ token });
+    } catch (error) {
+      return res.status(500).end();
+    }
+  });
 
 
 app.listen(3005, () => {
