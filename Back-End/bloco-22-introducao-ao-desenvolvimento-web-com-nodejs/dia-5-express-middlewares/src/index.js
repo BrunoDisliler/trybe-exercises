@@ -1,5 +1,6 @@
 const express = require('express');
 const validateProductName = require('../middlewares/validateProductName');
+const validateInfos = require('../middlewares/validateInfos');
 
 const app = express();
 app.use(express.json());
@@ -14,7 +15,7 @@ app.use((req, _res, next) => {
   next();
 });
 
-app.post('/sales', validateProductName, (_req, res) => {
+app.post('/sales', validateProductName, validateInfos, (_req, res) => {
   res.status(201).json({ message: 'Venda criada com sucesso!'})
 })
 
