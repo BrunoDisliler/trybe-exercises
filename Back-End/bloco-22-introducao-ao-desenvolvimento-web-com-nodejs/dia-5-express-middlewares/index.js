@@ -5,7 +5,7 @@ const authMiddleware = require('./auth-middleware');
 const app = express();
 app.use(bodyParser.json());
 
-// Esta rota não passa pelo middleware de autenticação!
+// Esta rota não passa pelo middleware de autenticação! Não utilizar em produção, apenas em desenvolvimento
 app.get('/open', (req, res) => {
   res.send('open!')
 });
