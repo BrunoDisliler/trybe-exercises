@@ -1,7 +1,9 @@
+const { json } = require('body-parser');
 const express = require('express');
 const validateEmail = require('./middlewares/validateEmail');
 const validatePassword = require('./middlewares/validatePassword');
 const validateUsername = require('./middlewares/validateUsername');
+const crypto = require("crypto");
 
 const app = express();
 app.use(express.json());
@@ -23,6 +25,14 @@ app.post('/user/register',
   validatePassword,
   (_req, res) => {
   res.status(201).json({ message: "User Created" })
+});
+
+app.post('/user/login', 
+  validateEmail,
+  validatePassword,
+  (_req, res) => {
+  const token = crypto.randomBytes(8).toString("hex");
+  res.status(200).json({ token })
 });
 
 
