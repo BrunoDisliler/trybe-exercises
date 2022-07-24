@@ -53,7 +53,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 6-5: _CSS Responsivo - Mobile First_
 - :white_check_mark: 6-6: _[Projeto - TrybeWarts]()_
 
-##### Bloco 7: JavaScript ES6 & Testes Unitários
+##### Bloco 7: JavaScript ES6 & Testes Unitários com Jest
 
 - :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - :white_check_mark: 7-1: 7-2: _JavaScript ES6 - Objects_
