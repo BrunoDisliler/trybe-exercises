@@ -55,7 +55,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários com Jest
 
-- :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions => e template literals_
 - :white_check_mark: 7-1: 7-2: _JavaScript ES6 - Objects_
 - :white_check_mark: 7-1: 7-3: _Primeiro passos em Jest_
 - :white_check_mark: 7-4: _[Projeto - JavaScript Testes Unitários]()_
