@@ -28,7 +28,7 @@
  ✅ Projeto Talker Manager <br>
 
 ### Bloco 23 - Nodejs - Camada de Serviço e Arquitetura Rest e RestFull:
- ⬜ Arquitetura - Camada Model <br>
+ ✅ Arquitetura - Camada Model <br>
  ⬜ Arquitetura - Camada Controller e Services <br>
  ⬜ Arquitetura Web - Rest e RestFull <br>
  ⬜ Arquitetura de Software - Testando as camadas <br>
