@@ -1,4 +1,4 @@
-## DESENVOLVIMENTO FRONT-END :white_check_mark:
+## MÓDULO DE FRONT-END CONCLUÍDO EM 20/05/2022 :white_check_mark:
 
 ##### Bloco 10: Introdução - React
 
