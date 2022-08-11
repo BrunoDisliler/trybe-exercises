@@ -10,19 +10,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- :white_check_mark: 1-3: _Unix & Shell- Part 1_ 
-- :white_check_mark: 1-4: _Unix & Shell- Part 2_
+- :white_check_mark: 1-3: _Unix & Shell- Part I
+- :white_check_mark: 1-4: _Unix & Shell- Part II
 
 ##### Bloco 2: Git & GitHub
 
-- :white_check_mark: 2-1: _O que é e para que serve?_
-- :white_check_mark: 2-2: _Entendendo os comandos_
-- :white_check_mark: 2-3: _Internet - Entendendo como ela funciona_
+- :white_check_mark: 2-1: _O que é e para que serve?
+- :white_check_mark: 2-2: _Entendendo os comandos
+- :white_check_mark: 2-3: _Internet - Entendendo como ela funciona
 
-##### Bloco 3: Introdução - HTML & CSS
+##### Bloco 3: Introdução HTML & CSS
 
 - :white_check_mark: 3-1: _HTML & CSS - Estruturas de página_
-- :white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_
+- :white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS
 - :white_check_mark: 3-3: _HTML & CSS - Seletores e posicionamento_
 - :white_check_mark: 3-4: _HTML Semântico_
 - :white_check_mark: 3-5: _[Projeto - Lessons Learned]()_
@@ -53,9 +53,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 6-5: _CSS Responsivo - Mobile First_
 - :white_check_mark: 6-6: _[Projeto - TrybeWarts]()_
 
-##### Bloco 7: JavaScript ES6 & Testes Unitários
+##### Bloco 7: JavaScript ES6 & Testes Unitários com Jest
 
-- :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions => e template literals_
 - :white_check_mark: 7-1: 7-2: _JavaScript ES6 - Objects_
 - :white_check_mark: 7-1: 7-3: _Primeiro passos em Jest_
 - :white_check_mark: 7-4: _[Projeto - JavaScript Testes Unitários]()_
@@ -129,7 +129,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - :white_check_mark: 18-3: _React Hooks - useEffect e Hooks customizados_
 - :white_check_mark: 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_.
 
-##### Bloco 18: Projeto Final de Front-end
+##### Bloco 18: Projeto Final de Front-end em grupo
 
 - :white_check_mark: 19-1: _[Projeto - App de Receitas]()_
 
@@ -164,10 +164,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 23 - Nodejs - Camada de Serviço e Arquitetura Rest e RestFull:
  ✅ Arquitetura - Camada Model <br>
- ✅ Arquitetura - Camada Controller e Services <br>
- ✅ Arquitetura Web - Rest e RestFull <br>
- ✅ Arquitetura de Software - Testando as camadas <br>
- ✅ Projeto Store Manager <br>
+ ⬜ Arquitetura - Camada Controller e Services <br>
+ ⬜ Arquitetura Web - Rest e RestFull <br>
+ ⬜ Arquitetura de Software - Testando as camadas <br>
+ ⬜ Projeto Store Manager <br>
 
 ### Bloco 24 - Nodejs - ORM e Autenticação:
  ⬜ ORM - Interface da aplicação com o Banco de Dados <br>

@@ -1,5 +1,4 @@
-# Módulo Backend - Trybe
-### Este repositório contém todas as anotações, práticas e exercicios do Módulo de Backend, <br> implementados por Bruno Disliler durante o curso de formação em desenvolvimento <br> fullstack na Trybe.
+## Módulo Backend
 
 ### Bloco 19 - Docker:
  ✅ Utilizando Containers <br>
@@ -30,10 +29,10 @@
 
 ### Bloco 23 - Nodejs - Camada de Serviço e Arquitetura Rest e RestFull:
  ✅ Arquitetura - Camada Model <br>
- ✅ Arquitetura - Camada Controller e Services <br>
- ✅ Arquitetura Web - Rest e RestFull <br>
- ✅ Arquitetura de Software - Testando as camadas <br>
- ✅ Projeto Store Manager <br>
+ ⬜ Arquitetura - Camada Controller e Services <br>
+ ⬜ Arquitetura Web - Rest e RestFull <br>
+ ⬜ Arquitetura de Software - Testando as camadas <br>
+ ⬜ Projeto Store Manager <br>
 
 ### Bloco 24 - Nodejs - ORM e Autenticação:
  ⬜ ORM - Interface da aplicação com o Banco de Dados <br>
