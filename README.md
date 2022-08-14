@@ -164,10 +164,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 23 - Nodejs - Camada de Serviço e Arquitetura Rest e RestFull:
  ✅ Arquitetura - Camada Model <br>
- ⬜ Arquitetura - Camada Controller e Services <br>
- ⬜ Arquitetura Web - Rest e RestFull <br>
- ⬜ Arquitetura de Software - Testando as camadas <br>
- ⬜ Projeto Store Manager <br>
+ ✅ Arquitetura - Camada Controller e Services <br>
+ ✅ Arquitetura Web - Rest e RestFull <br>
+ ✅ Arquitetura de Software - Testando as camadas <br>
+ ✅ Projeto Store Manager <br>
 
 ### Bloco 24 - Nodejs - ORM e Autenticação:
  ⬜ ORM - Interface da aplicação com o Banco de Dados <br>
