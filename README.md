@@ -195,7 +195,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  ⬜ SOLID - Princípios L e I <br>
  ⬜ Projeto Trybers and Dragons <br>
 
- ⬜ ### Bloco 28 - Projeto Trybe Futebol Club <br>
+### Bloco 28 - Projeto <br>
+ ⬜ Projeto Trybe Futebol Club
 
 ### Bloco 29 - Introdução ao MongoDB:
  ⬜ MogoDB - NoSQL <br>
