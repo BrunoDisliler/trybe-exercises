@@ -60,7 +60,8 @@
  ⬜ SOLID - Princípios L e I <br>
  ⬜ Projeto Trybers and Dragons <br>
 
- ⬜ ### Bloco 28 - Projeto Trybe Futebol Club <br>
+### Bloco 28 - Projeto
+ ⬜ Projeto Trybe Futebol Club <br>
 
 ### Bloco 29 - Introdução ao MongoDB:
  ⬜ MogoDB - NoSQL <br>
