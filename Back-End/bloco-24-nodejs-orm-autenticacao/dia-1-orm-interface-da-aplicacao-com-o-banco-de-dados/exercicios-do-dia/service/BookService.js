@@ -1,7 +1,7 @@
-const { books } = require('../database/models');
+const { Book } = require('../database/models/Book');
 
-const getAll = async() => {
-  const books = await books.findAll()
+const getAll = async () => {
+  const books = await Book.findAll();
   return books;
 };
 
