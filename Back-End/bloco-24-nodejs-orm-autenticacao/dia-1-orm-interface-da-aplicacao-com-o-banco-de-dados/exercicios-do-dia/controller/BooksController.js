@@ -9,9 +9,9 @@ BooksController.get('/books', async (_req, res) => {
 
 BooksController.get('/books/:id', async (req, res) => {
   const { id } = req.params;
-  const booksId = await BooksService.getById(id);
-  if (!booksId) return res.status(404).json({ message: "Book not found" });
-  res.status(200).json(booksId);
+  const book = await BooksService.getById(id);
+  if (!book) return res.status(404).json({ message: "Book not found" });
+  res.status(200).json(book);
 });
 
 module.exports = BooksController;
