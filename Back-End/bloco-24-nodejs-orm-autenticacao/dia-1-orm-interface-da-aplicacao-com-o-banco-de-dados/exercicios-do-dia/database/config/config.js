@@ -1,25 +1,23 @@
-require('dotenv').config();
-
 module.exports = {
   "development": {
-    "username": process.env.DB_USER || "root",
-    "password": process.env.DB_PASSWORD || "Disliler21",
-    "database": process.env.DB_DATABASE || "orm_exercises",
-    "host": process.env.DB_HOST || "127.0.0.1",
-    "dialect": process.env.DB_DIALECT || "mysql"
+    "username": "root",
+    "password": "Disliler21",
+    "database": "orm_exercises",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "test": {
-    "username": process.env.DB_USER,
-    "password": process.env.DB_PASSWORD,
-    "database": process.env.DB_DATABASE,
-    "host": process.env.DB_HOST,
-    "dialect": process.env.DB_DIALECT || "mysql"
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "production": {
-    "username": process.env.DB_USER,
-    "password": process.env.DB_PASSWORD,
-    "database": process.env.DB_DATABASE,
-    "host": process.env.DB_HOST,
-    "dialect": process.env.DB_DIALECT || "mysql"
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
