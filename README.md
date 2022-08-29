@@ -174,7 +174,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  ✅ ORM - Associations <br>
  ✅ JWT - Json Web Token <br>
  ✅ Testando Apis com Teste de Integração <br>
- ⬜ Projeto APIS de Blogs <br>
+ ✅ Projeto APIS de Blogs <br>
 
 ### Bloco 25 - Deployment:
  ⬜ Infraestrutura - Deploy com Heroku <br>
