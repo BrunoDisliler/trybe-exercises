@@ -39,7 +39,7 @@
  ✅ ORM - Associations <br>
  ✅ JWT - Json Web Token <br>
  ✅ Testando Apis com Teste de Integração <br>
- ⬜ Projeto APIS de Blogs <br>
+ ✅ Projeto APIS de Blogs <br>
 
 ### Bloco 25 - Deployment:
  ⬜ Infraestrutura - Deploy com Heroku <br>
