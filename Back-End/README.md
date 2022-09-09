@@ -42,13 +42,13 @@
  ✅ Projeto APIS de Blogs <br>
 
 ### Bloco 25 - Deployment:
- ⬜ Infraestrutura - Deploy com Heroku <br>
- ⬜ Deploy Docker & Heroku  <br>
- ⬜ Projeto Stranger Things <br>
+ ✅ Infraestrutura - Deploy com Heroku <br>
+ ✅ Deploy Docker & Heroku  <br>
+ ✅ Projeto Stranger Things <br>
 
 ### Bloco 26 - Typescript:
- ⬜ Introdução ao Typescript <br>
- ⬜ Tipagem Estática e Genérica <br>
+ ✅ Introdução ao Typescript <br>
+ ✅ Tipagem Estática e Genérica <br>
  ⬜ Express com Typescript <br>
  ⬜ Projeto Trybe Smith <br>
 
