@@ -185,14 +185,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  ✅ Introdução ao Typescript <br>
  ✅ Tipagem Estática e Genérica <br>
  ✅ Express com Typescript <br>
- ⬜ Projeto Trybe Smith <br>
+ ✅ Projeto Trybe Smith <br>
 
 ### Bloco 27 - Programando Orientado a Objetos - POO e SOLID:
- ⬜ Introdução à Orientação a Objetos <br>
- ⬜ Herança e Interfaces <br>
- ⬜ Polimorfismo <br>
- ⬜ SOLID - Princípios S, O, D <br>
- ⬜ SOLID - Princípios L e I <br>
+ ✅ Introdução à Orientação a Objetos <br>
+ ✅ Herança e Interfaces <br>
+ ✅ Polimorfismo <br>
+ ✅ SOLID - Princípios S, O, D <br>
+ ✅ SOLID - Princípios L e I <br>
  ⬜ Projeto Trybers and Dragons <br>
 
 ### Bloco 28 - Projeto <br>
