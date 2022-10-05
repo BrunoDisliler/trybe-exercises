@@ -58,7 +58,7 @@
  ✅ Polimorfismo <br>
  ✅ SOLID - Princípios S, O, D <br>
  ✅ SOLID - Princípios L e I <br>
- ⬜ Projeto Trybers and Dragons <br>
+ ✅ Projeto Trybers and Dragons <br>
 
 ### Bloco 28 - Projeto
  ⬜ Projeto Trybe Futebol Club <br>
