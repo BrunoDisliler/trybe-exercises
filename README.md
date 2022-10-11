@@ -196,12 +196,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  ✅ Projeto Trybers and Dragons <br>
 
 ### Bloco 28 - Projeto <br>
- ⬜ Projeto Trybe Futebol Club
+ ✅ Projeto Trybe Futebol Club
 
 ### Bloco 29 - Introdução ao MongoDB:
- ⬜ MogoDB - NoSQL <br>
- ⬜ Filter Operators <br>
- ⬜ Operadores de Consulta <br>
+ ✅ MogoDB - NoSQL <br>
+ ✅ Filter Operators <br>
+ ✅ Operadores de Consulta <br>
  ⬜ Updates Simples <br>
  ⬜ Updates Complexos - Arrays <br>
  ⬜ Projeto Commerce <br>
