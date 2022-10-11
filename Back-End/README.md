@@ -61,13 +61,13 @@
  ✅ Projeto Trybers and Dragons <br>
 
 ### Bloco 28 - Projeto
- ⬜ Projeto Trybe Futebol Club <br>
+ ✅ Projeto Trybe Futebol Club <br>
 
 ### Bloco 29 - Introdução ao MongoDB:
- ⬜ MogoDB - NoSQL <br>
- ⬜ Filter Operators <br>
- ⬜ Operadores de Consulta <br>
- ⬜ Updates Simples <br>
+ ✅ MogoDB - NoSQL <br>
+ ✅ Filter Operators <br>
+ ✅ Operadores de Consulta <br>
+ ✅ Updates Simples <br>
  ⬜ Updates Complexos - Arrays <br>
  ⬜ Projeto Commerce <br>
 
